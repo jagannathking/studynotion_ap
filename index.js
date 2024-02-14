@@ -37,7 +37,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOptions = {
-	origin: 'http://localhost:3000',
+	origin: 'https://studynotion-ap-frontend.vercel.app',
 	methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 	credentials: true, // Enable credentials (cookies, authorization headers, etc.)
 	optionsSuccessStatus: 204, // Some legacy browsers (IE11, various SmartTVs) choke on 204
